@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matias Meira - Backend Java Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar">
+            <div class="nav-brand">
+                <h2>MATIAS MEIRA</h2>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">Sobre Mí</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h1>MATIAS EZEQUIEL MEIRA</h1>
+            <h2>Backend Java Developer</h2>
+            <p class="hero-tech"><span class="violet-fluor">Spring Boot</span> | <span class="violet-fluor">Hibernate</span> | <span class="violet-fluor">PostgreSQL</span> | <span class="violet-fluor">Python</span></p>
+            <div class="hero-location">
+                <i class="fas fa-map-marker-alt violet-fluor"></i>
+                <span>Buenos Aires, Argentina</span>
+            </div>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary">Contáctame</a>
+                <a href="#projects" class="btn btn-secondary">Ver Proyectos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Sobre Mí</h2>
+            <div class="about-content">
+                <p>
+                    Soy desarrollador backend especializado en <span class="violet-fluor">Java Spring Boot</span>. 
+                    Actualmente curso la Licenciatura en Sistemas en la Universidad 
+                    Nacional General Sarmiento. Me apasiona crear soluciones robustas 
+                    y escalables utilizando las mejores prácticas de desarrollo.
+                </p>
+                <p>
+                    Tengo experiencia en desarrollo de sistemas web, bases de datos 
+                    y trabajo en equipo utilizando metodologías ágiles como <span class="violet-fluor">Scrum</span>.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Habilidades Técnicas</h2>
+            <div class="skills-grid">
+                <!-- Backend -->
+                <div class="skill-category">
+                    <h3>
+                        <i class="fas fa-server"></i>
+                        Backend
+                    </h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-java skill-icon java-icon"></i>
+                            <span class="skill-name">Java</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-leaf skill-icon spring-icon"></i>
+                            <span class="skill-name">Spring Boot</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database skill-icon hibernate-icon"></i>
+                            <span class="skill-name">Hibernate/JPA</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-python skill-icon python-icon"></i>
+                            <span class="skill-name">Python</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-bolt skill-icon django-icon"></i>
+                            <span class="skill-name">Django</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bases de Datos -->
+                <div class="skill-category">
+                    <h3>
+                        <i class="fas fa-database"></i>
+                        Bases de Datos
+                    </h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fas fa-database skill-icon postgresql-icon"></i>
+                            <span class="skill-name">PostgreSQL</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database skill-icon mysql-icon"></i>
+                            <span class="skill-name">MySQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Herramientas -->
+                <div class="skill-category">
+                    <h3>
+                        <i class="fas fa-tools"></i>
+                        Herramientas
+                    </h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-git-alt skill-icon git-icon"></i>
+                            <span class="skill-name">Git</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-cube skill-icon maven-icon"></i>
+                            <span class="skill-name">Maven</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-docker skill-icon docker-icon"></i>
+                            <span class="skill-name">Docker</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-tasks skill-icon scrum-icon"></i>
+                            <span class="skill-name">Scrum/Agile</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Proyectos Destacados</h2>
+            <div class="projects-grid">
+                <!-- Proyecto 1 -->
+                <div class="project-card">
+                    <h3>Sistema de Gestión de Producción</h3>
+                    <p class="project-role">Backend Developer & DBA</p>
+                    <p class="project-description">
+                        Sistema desarrollado para Pyme de congelados utilizando metodología Scrum. 
+                        Permite la automatización de procedimientos de producción.
+                    </p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>Django</span>
+                        <span>PostgreSQL</span>
+                        <span>Scrum</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Giuliano1994/frozen_back" target="_blank">
+                            <i class="fab fa-github"></i> Código
+                        </a>
+                        <a href="https://frozen-front-phi.vercel.app/verOrdenesCompra" target="_blank">
+                            <i class="fas fa-external-link-alt"></i> Demo
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Proyecto 2 -->
+                <div class="project-card">
+                    <h3>Sistema de Plantillas de Fútbol</h3>
+                    <p class="project-role">Java Developer</p>
+                    <p class="project-description">
+                        Sistema para la Asociación de Fútbol Pilaerense que permite la generación 
+                        automatizada de plantillas de jugadores.
+                    </p>
+                    <div class="project-tech">
+                        <span>Java</span>
+                        <span>Spring Boot</span>
+                        <span>Hibernate</span>
+                        <span>PostgreSQL</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" target="_blank">
+                            <i class="fab fa-github"></i> Código
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contacto</h2>
+            <div class="contact-content">
+                <p>¿Interesado en trabajar juntos? ¡Hablemos!</p>
+                <div class="contact-links">
+                    <a href="mailto:matiasezequielmeira@gmail.com" class="contact-link">
+                        <i class="fas fa-envelope"></i>
+                        <span>matiasezequielmeira@gmail.com</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/matias-ezequiel-meira-b949642a5/" target="_blank" class="contact-link">
+                        <i class="fab fa-linkedin"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://github.com/matiasmeira" target="_blank" class="contact-link">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Matias Ezequiel Meira. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

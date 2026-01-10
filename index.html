@@ -3,227 +3,119 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Matias Meira - Backend Java Developer</title>
+    <title>Matias Meira | Backend Developer</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Header -->
     <header>
         <nav class="navbar">
-            <div class="nav-brand">
-                <h2>MATIAS MEIRA</h2>
-            </div>
+            <div class="nav-brand">MATIAS MEIRA</div>
             <ul class="nav-links">
-                <li><a href="#about">Sobre Mí</a></li>
-                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#hero">Inicio</a></li>
+                <li><a href="#about">Perfil</a></li>
                 <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#skills">Stack</a></li>
                 <li><a href="#contact">Contacto</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- Hero Section -->
-    <section id="hero" class="hero">
-        <div class="hero-content">
-            <h1>MATIAS EZEQUIEL MEIRA</h1>
-            <h2>Backend Java Developer</h2>
-            <p class="hero-tech"><span class="violet-fluor">Spring Boot</span> | <span class="violet-fluor">Hibernate</span> | <span class="violet-fluor">PostgreSQL</span> | <span class="violet-fluor">Python</span></p>
-            <div class="hero-location">
-                <i class="fas fa-map-marker-alt violet-fluor"></i>
-                <span>Buenos Aires, Argentina</span>
-            </div>
-            <div class="hero-buttons">
-                <a href="#contact" class="btn btn-primary">Contáctame</a>
-                <a href="#projects" class="btn btn-secondary">Ver Proyectos</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container">
-            <h2 class="section-title">Sobre Mí</h2>
-            <div class="about-content">
-                <p>
-                    Soy desarrollador backend especializado en <span class="violet-fluor">Java Spring Boot</span>. 
-                    Actualmente curso la Licenciatura en Sistemas en la Universidad 
-                    Nacional General Sarmiento. Me apasiona crear soluciones robustas 
-                    y escalables utilizando las mejores prácticas de desarrollo.
-                </p>
-                <p>
-                    Tengo experiencia en desarrollo de sistemas web, bases de datos 
-                    y trabajo en equipo utilizando metodologías ágiles como <span class="violet-fluor">Scrum</span>.
-                </p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Skills Section -->
-    <section id="skills" class="skills">
-        <div class="container">
-            <h2 class="section-title">Habilidades Técnicas</h2>
-            <div class="skills-grid">
-                <!-- Backend -->
-                <div class="skill-category">
-                    <h3>
-                        <i class="fas fa-server"></i>
-                        Backend
-                    </h3>
-                    <div class="skill-items">
-                        <div class="skill-item">
-                            <i class="fab fa-java skill-icon java-icon"></i>
-                            <span class="skill-name">Java</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fas fa-leaf skill-icon spring-icon"></i>
-                            <span class="skill-name">Spring Boot</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fas fa-database skill-icon hibernate-icon"></i>
-                            <span class="skill-name">Hibernate/JPA</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fab fa-python skill-icon python-icon"></i>
-                            <span class="skill-name">Python</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fas fa-bolt skill-icon django-icon"></i>
-                            <span class="skill-name">Django</span>
-                        </div>
-                    </div>
+    <main class="scroll-container">
+        <section id="hero" class="snap-section hero">
+            <div class="container">
+                <h1 class="fade-in">Matias Ezequiel Meira</h1>
+                <h2 class="fade-in">Backend Java Developer</h2>
+                <p class="hero-desc fade-in">Construyendo los cimientos de aplicaciones escalables mediante APIs REST eficientes y arquitecturas de datos sólidas.</p>
+                <div class="hero-cta fade-in">
+                    <a href="#projects" class="btn btn-primary">Explorar Proyectos</a>
+                    <a href="mailto:matiasezequielmeira@gmail.com" class="btn btn-outline">Contacto Directo</a>
                 </div>
+            </div>
+        </section>
 
-                <!-- Bases de Datos -->
-                <div class="skill-category">
-                    <h3>
-                        <i class="fas fa-database"></i>
-                        Bases de Datos
-                    </h3>
-                    <div class="skill-items">
-                        <div class="skill-item">
-                            <i class="fas fa-database skill-icon postgresql-icon"></i>
-                            <span class="skill-name">PostgreSQL</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fas fa-database skill-icon mysql-icon"></i>
-                            <span class="skill-name">MySQL</span>
-                        </div>
+        <section id="about" class="snap-section about">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-text">
+                        <h2 class="section-title">Sobre mí</h2>
+                        <p>Desarrollador Backend especializado en el ecosistema <strong>Java/Spring Boot</strong>. Cursando la Licenciatura en Sistemas en la <strong>UNGS</strong>.</p>
+                        <p>Mi valor principal es la capacidad de diseñar sistemas que no solo funcionan, sino que son fáciles de mantener y escalar.</p>
                     </div>
-                </div>
-
-                <!-- Herramientas -->
-                <div class="skill-category">
-                    <h3>
-                        <i class="fas fa-tools"></i>
-                        Herramientas
-                    </h3>
-                    <div class="skill-items">
-                        <div class="skill-item">
-                            <i class="fab fa-git-alt skill-icon git-icon"></i>
-                            <span class="skill-name">Git</span>
+                    <div class="education-card">
+                        <h3>Situación Académica</h3>
+                        <div class="edu-item">
+                            <span class="year">Actualidad</span>
+                            <p><strong>Licenciatura en Sistemas</strong><br>Univ. Nac. General Sarmiento</p>
                         </div>
-                        <div class="skill-item">
-                            <i class="fas fa-cube skill-icon maven-icon"></i>
-                            <span class="skill-name">Maven</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fab fa-docker skill-icon docker-icon"></i>
-                            <span class="skill-name">Docker</span>
-                        </div>
-                        <div class="skill-item">
-                            <i class="fas fa-tasks skill-icon scrum-icon"></i>
-                            <span class="skill-name">Scrum/Agile</span>
+                        <div class="edu-item highlight-border">
+                            <span class="year">Feb 2026 (Final Pendiente)</span>
+                            <p><strong>Técnico Univ. en Informática</strong><br>UNGS</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="projects">
-        <div class="container">
-            <h2 class="section-title">Proyectos Destacados</h2>
-            <div class="projects-grid">
-                <!-- Proyecto 1 -->
-                <div class="project-card">
-                    <h3>Sistema de Gestión de Producción</h3>
-                    <p class="project-role">Backend Developer & DBA</p>
-                    <p class="project-description">
-                        Sistema desarrollado para Pyme de congelados utilizando metodología Scrum. 
-                        Permite la automatización de procedimientos de producción.
-                    </p>
-                    <div class="project-tech">
-                        <span>Python</span>
-                        <span>Django</span>
-                        <span>PostgreSQL</span>
-                        <span>Scrum</span>
+        <section id="projects" class="snap-section projects">
+            <div class="container">
+                <h2 class="section-title">Proyectos de Ingeniería</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <i class="fas fa-warehouse project-icon"></i>
+                        <h3>Gestión de Inventario</h3>
+                        <p>Control de stock y órdenes para Pyme alimenticia.</p>
+                        <div class="tech-stack">
+                            <span>Spring Boot</span><span>PostgreSQL</span>
+                        </div>
+                        <a href="https://github.com/matiasmeira" class="project-link">GitHub</a>
                     </div>
-                    <div class="project-links">
-                        <a href="https://github.com/Giuliano1994/frozen_back" target="_blank">
-                            <i class="fab fa-github"></i> Código
-                        </a>
-                        <a href="https://frozen-front-phi.vercel.app/verOrdenesCompra" target="_blank">
-                            <i class="fas fa-external-link-alt"></i> Demo
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Proyecto 2 -->
-                <div class="project-card">
-                    <h3>Sistema de Plantillas de Fútbol</h3>
-                    <p class="project-role">Java Developer</p>
-                    <p class="project-description">
-                        Sistema para la Asociación de Fútbol Pilaerense que permite la generación 
-                        automatizada de plantillas de jugadores.
-                    </p>
-                    <div class="project-tech">
-                        <span>Java</span>
-                        <span>Spring Boot</span>
-                        <span>Hibernate</span>
-                        <span>PostgreSQL</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="#" target="_blank">
-                            <i class="fab fa-github"></i> Código
-                        </a>
+                    <div class="project-card">
+                        <i class="fas fa-file-invoice project-icon"></i>
+                        <h3>Automatización Plantillas</h3>
+                        <p>Generación de documentos para la liga de fútbol.</p>
+                        <div class="tech-stack">
+                            <span>Java 17</span><span>JPA</span>
+                        </div>
+                        <a href="#" class="project-link">GitHub</a>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2 class="section-title">Contacto</h2>
-            <div class="contact-content">
-                <p>¿Interesado en trabajar juntos? ¡Hablemos!</p>
+        <section id="skills" class="snap-section skills">
+            <div class="container">
+                <h2 class="section-title text-center">Stack Tecnológico</h2>
+                <div class="skills-grid">
+                    <div class="skill-icon-box"><i class="devicon-java-plain colored"></i><span>Java</span></div>
+                    <div class="skill-icon-box"><i class="devicon-spring-original colored"></i><span>Spring</span></div>
+                    <div class="skill-icon-box"><i class="devicon-postgresql-plain colored"></i><span>Postgres</span></div>
+                    <div class="skill-icon-box"><i class="devicon-git-plain colored"></i><span>Git Flow</span></div>
+                    <div class="skill-icon-box icon-manual">
+                        <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="Postman">
+                        <span>Postman</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="snap-section contact">
+            <div class="container text-center">
+                <h2 class="section-title">Contacto</h2>
+                <p>Disponible para integrarme a equipos de desarrollo.</p>
                 <div class="contact-links">
-                    <a href="mailto:matiasezequielmeira@gmail.com" class="contact-link">
-                        <i class="fas fa-envelope"></i>
-                        <span>matiasezequielmeira@gmail.com</span>
-                    </a>
-                    <a href="https://www.linkedin.com/in/matias-ezequiel-meira-b949642a5/" target="_blank" class="contact-link">
-                        <i class="fab fa-linkedin"></i>
-                        <span>LinkedIn</span>
-                    </a>
-                    <a href="https://github.com/matiasmeira" target="_blank" class="contact-link">
-                        <i class="fab fa-github"></i>
-                        <span>GitHub</span>
-                    </a>
+                    <a href="mailto:matiasezequielmeira@gmail.com">Email</a>
+                    <a href="https://linkedin.com/in/matias-ezequiel-meira-b949642a5/" target="_blank">LinkedIn</a>
+                    <a href="https://github.com/matiasmeira" target="_blank">GitHub</a>
                 </div>
+                <footer class="footer-inline">
+                    <p>MATIAS EZEQUIEL MEIRA &copy; 2026</p>
+                </footer>
             </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 Matias Ezequiel Meira. Todos los derechos reservados.</p>
-        </div>
-    </footer>
+        </section>
+    </main>
 
     <script src="script.js"></script>
 </body>
